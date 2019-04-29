@@ -4,7 +4,7 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.base import MIMEBase
 from email import encoders
 
-# This function attaches and picture and emails.
+# This function attaches and picture to emails and sends them.
 # Required parameters are email_user (sender), email_rec (recipient), subject and filename
 # the filename includes the path
 # If you want to send to multiple recipients
